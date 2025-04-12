@@ -1,0 +1,63 @@
+/* auth.module.css */
+
+/* General container styling */
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: #000; /* Dark theme */
+    color: #e0f2fe; /* Light text for contrast */
+  }
+  
+  /* Card styling for form */
+  .auth-card {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background */
+    border-radius: 8px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Heading styles */
+  .auth-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Input field styling */
+  .auth-input {
+    width: calc(100% - 2rem);
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255,255,255,0.1); /* Subtle contrast for input fields */
+    color: #e0f2fe; /* Light text color */
+  }
+  
+  /* Button styling */
+  .auth-button {
+    width: calc(100% - 2rem);
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #64b5f6; /* Highlight color */
+    color: #000; /* Button text color */
+  }
+  
+  .auth-button:hover {
+      background-color:#42a5f5; /* Slightly darker hover effect */
+      transition : all .3s ease-in-out
+  }
+  
+  /* Link styling */
+  .auth-link {
+      color:#e02fe
+  }
+  
